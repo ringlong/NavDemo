@@ -1,0 +1,11 @@
+platform:ios,'6.0'
+
+pod 'pop'
+pod 'MBProgressHUD'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'SDWebImage'
+pod 'TPKeyboardAvoiding'
+pod 'ReactiveCocoa'
+pod 'EYToolkit', :git => 'https://github.com/yang6512/EYToolkit.git', :branch => 'master'
+

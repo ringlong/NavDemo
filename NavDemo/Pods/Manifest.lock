@@ -1,0 +1,49 @@
+PODS:
+  - EYToolkit (1.0.0)
+  - MBProgressHUD (0.9.1)
+  - MJExtension (2.0.0)
+  - MJRefresh (1.4.5)
+  - pop (1.0.7)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - TPKeyboardAvoiding (1.2.6)
+
+DEPENDENCIES:
+  - EYToolkit (from `https://github.com/yang6512/EYToolkit.git`, branch `master`)
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - pop
+  - ReactiveCocoa
+  - SDWebImage
+  - TPKeyboardAvoiding
+
+EXTERNAL SOURCES:
+  EYToolkit:
+    :branch: master
+    :git: https://github.com/yang6512/EYToolkit.git
+
+CHECKOUT OPTIONS:
+  EYToolkit:
+    :commit: c2c5bc7a5b65ac1594fc90ea2e124c0574f2e995
+    :git: https://github.com/yang6512/EYToolkit.git
+
+SPEC CHECKSUMS:
+  EYToolkit: e4448fef33a97d91a984371d53e0b369cce36b77
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJExtension: 6e8f19786bacf20efa4d0ffeb8054f4cdd7754c4
+  MJRefresh: 4b24394e577ea399fbc926e5b6072317aae2c152
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  TPKeyboardAvoiding: ee4dd35e3bb7bb64bfbda47e7cc9ba872ff10f77
+
+COCOAPODS: 0.36.4

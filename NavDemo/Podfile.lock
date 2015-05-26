@@ -1,15 +1,16 @@
 PODS:
   - EYToolkit (1.0.0)
+  - Masonry (0.6.1)
   - MBProgressHUD (0.9.1)
-  - MJExtension (2.0.0)
-  - MJRefresh (1.4.5)
+  - MJExtension (0.3.1)
+  - MJRefresh (1.4.4)
   - pop (1.0.7)
-  - ReactiveCocoa (2.5):
-    - ReactiveCocoa/UI (= 2.5)
-  - ReactiveCocoa/Core (2.5):
+  - ReactiveCocoa (2.4.7):
+    - ReactiveCocoa/UI (= 2.4.7)
+  - ReactiveCocoa/Core (2.4.7):
     - ReactiveCocoa/no-arc
-  - ReactiveCocoa/no-arc (2.5)
-  - ReactiveCocoa/UI (2.5):
+  - ReactiveCocoa/no-arc (2.4.7)
+  - ReactiveCocoa/UI (2.4.7):
     - ReactiveCocoa/Core
   - SDWebImage (3.7.2):
     - SDWebImage/Core (= 3.7.2)
@@ -18,6 +19,7 @@ PODS:
 
 DEPENDENCIES:
   - EYToolkit (from `https://github.com/yang6512/EYToolkit.git`, branch `master`)
+  - Masonry
   - MBProgressHUD
   - MJExtension
   - MJRefresh
@@ -38,12 +40,13 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   EYToolkit: e4448fef33a97d91a984371d53e0b369cce36b77
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
-  MJExtension: 6e8f19786bacf20efa4d0ffeb8054f4cdd7754c4
-  MJRefresh: 4b24394e577ea399fbc926e5b6072317aae2c152
+  MJExtension: dec83e8bd39b81c11e5cd20093eff45739525c54
+  MJRefresh: e4a25dd1f3afbe5c547ff0d434cb40997803bc81
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
-  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  ReactiveCocoa: eb38dee0a0e698f73a9b25e5c1faea2bb4c79240
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   TPKeyboardAvoiding: ee4dd35e3bb7bb64bfbda47e7cc9ba872ff10f77
 
-COCOAPODS: 0.36.4
+COCOAPODS: 0.36.0

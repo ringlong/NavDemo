@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2678E9F31B149EDC0089F41A /* MasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2678E9F11B149EDC0089F41A /* MasViewController.m */; };
+		2678E9F41B149EDC0089F41A /* MasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2678E9F21B149EDC0089F41A /* MasViewController.xib */; };
 		866067020E9A3B4FD9F6B6CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 171D5551CF206A5F94C7A3C7 /* libPods.a */; };
 		94D7E1961AE8C8BB00153228 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7E1951AE8C8BB00153228 /* main.m */; };
 		94D7E1991AE8C8BB00153228 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7E1981AE8C8BB00153228 /* AppDelegate.m */; };
@@ -34,6 +36,9 @@
 /* Begin PBXFileReference section */
 		171D5551CF206A5F94C7A3C7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C523A0D2D4005E6C17BC67 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2678E9F01B149EDC0089F41A /* MasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasViewController.h; sourceTree = "<group>"; };
+		2678E9F11B149EDC0089F41A /* MasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasViewController.m; sourceTree = "<group>"; };
+		2678E9F21B149EDC0089F41A /* MasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasViewController.xib; sourceTree = "<group>"; };
 		94D7E1901AE8C8BB00153228 /* NavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D7E1941AE8C8BB00153228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D7E1951AE8C8BB00153228 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -107,6 +112,9 @@
 				94D7E19B1AE8C8BB00153228 /* ViewController.m */,
 				94D7E1C11AE9D31600153228 /* MessageLayer.h */,
 				94D7E1C21AE9D31600153228 /* MessageLayer.m */,
+				2678E9F01B149EDC0089F41A /* MasViewController.h */,
+				2678E9F11B149EDC0089F41A /* MasViewController.m */,
+				2678E9F21B149EDC0089F41A /* MasViewController.xib */,
 				94D7E19D1AE8C8BB00153228 /* Main.storyboard */,
 				94D7E1A01AE8C8BB00153228 /* Images.xcassets */,
 				94D7E1A21AE8C8BB00153228 /* LaunchScreen.xib */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2678E9F41B149EDC0089F41A /* MasViewController.xib in Resources */,
 				94D7E1BB1AE8D0D600153228 /* per_center_bg@2x.png in Resources */,
 				94D7E19F1AE8C8BB00153228 /* Main.storyboard in Resources */,
 				94D7E1BC1AE8D0D600153228 /* per_center_bg@3x.png in Resources */,
@@ -298,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2678E9F31B149EDC0089F41A /* MasViewController.m in Sources */,
 				94D7E19C1AE8C8BB00153228 /* ViewController.m in Sources */,
 				94D7E1991AE8C8BB00153228 /* AppDelegate.m in Sources */,
 				94D7E1C31AE9D31600153228 /* MessageLayer.m in Sources */,

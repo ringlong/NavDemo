@@ -10,6 +10,7 @@
 #import "UINavigationBar+Awesome.h"
 #import "EYToolkit.h"
 #import "MessageLayer.h"
+#import "MasViewController.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -29,6 +30,8 @@
     UIImageView *topImage = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 232)];
     topImage.image = [UIImage imageNamed:@"per_center_bg"];
     self.tableView.tableHeaderView = topImage;
+    
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -48,10 +51,6 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-    if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-        cell.textLabel.textColor = [UIColor blackColor];
-    }
     cell.textLabel.text = self.dataSource[indexPath.row];
     return cell;
 }
@@ -61,6 +60,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [[MessageLayer sharedMessageLayer] showMessage:@"test" lastTime:2];
+    
+    MasViewController *masView = [[MasViewController alloc] init];
+    [self.navigationController pushViewController:masView animated:YES];
 }
 
 @end

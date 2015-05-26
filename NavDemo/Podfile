@@ -7,5 +7,6 @@ pod 'MJExtension'
 pod 'SDWebImage'
 pod 'TPKeyboardAvoiding'
 pod 'ReactiveCocoa'
+pod 'Masonry'
 pod 'EYToolkit', :git => 'https://github.com/yang6512/EYToolkit.git', :branch => 'master'
 

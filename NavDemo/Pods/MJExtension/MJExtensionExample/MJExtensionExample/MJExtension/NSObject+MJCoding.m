@@ -7,36 +7,42 @@
 //
 
 #import "NSObject+MJCoding.h"
-#import "NSObject+MJProperty.h"
-#import "MJProperty.h"
+#import "NSObject+MJIvar.h"
+#import "MJIvar.h"
 
 @implementation NSObject (MJCoding)
 
 - (void)encode:(NSCoder *)encoder
 {
-    NSArray *ignoredCodingPropertyNames = [[self class] totalIgnoredCodingPropertyNames];
+    NSArray *ignoredCodingPropertyNames = nil;
+    if ([[self class] respondsToSelector:@selector(ignoredCodingPropertyNames)]) {
+        ignoredCodingPropertyNames = [[self class] ignoredCodingPropertyNames];
+    }
     
-    [[self class] enumeratePropertiesWithBlock:^(MJProperty *property, BOOL *stop) {
+    [[self class] enumerateIvarsWithBlock:^(MJIvar *ivar, BOOL *stop) {
         // 检测是否被忽略
-        if ([ignoredCodingPropertyNames containsObject:property.name]) return;
+        if ([ignoredCodingPropertyNames containsObject:ivar.propertyName]) return;
         
-        id value = [property valueFromObject:self];
+        id value = [ivar valueFromObject:self];
         if (value == nil) return;
-        [encoder encodeObject:value forKey:property.name];
+        [encoder encodeObject:value forKey:ivar.name];
     }];
 }
 
 - (void)decode:(NSCoder *)decoder
 {
-    NSArray *ignoredCodingPropertyNames = [[self class] totalIgnoredCodingPropertyNames];
+    NSArray *ignoredCodingPropertyNames = nil;
+    if ([[self class] respondsToSelector:@selector(ignoredCodingPropertyNames)]) {
+        ignoredCodingPropertyNames = [[self class] ignoredCodingPropertyNames];
+    }
     
-    [[self class] enumeratePropertiesWithBlock:^(MJProperty *property, BOOL *stop) {
+    [[self class] enumerateIvarsWithBlock:^(MJIvar *ivar, BOOL *stop) {
         // 检测是否被忽略
-        if ([ignoredCodingPropertyNames containsObject:property.name]) return;
+        if ([ignoredCodingPropertyNames containsObject:ivar.propertyName]) return;
         
-        id value = [decoder decodeObjectForKey:property.name];
+        id value = [decoder decodeObjectForKey:ivar.name];
         if (value == nil) return;
-        [property setValue:value forObject:self];
+        [ivar setValue:value forObject:self];
     }];
 }
 @end

@@ -22,7 +22,6 @@ PODS:
   - AFNetworking/UIKit (2.5.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - EYToolkit (1.0.0)
   - Masonry (0.6.1)
   - MBProgressHUD (0.9.1)
   - MJExtension (2.0.1)
@@ -35,6 +34,7 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
+  - RRToolKit (0.0.1)
   - SDWebImage (3.7.2):
     - SDWebImage/Core (= 3.7.2)
   - SDWebImage/Core (3.7.2)
@@ -45,39 +45,39 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - EYToolkit (from `https://github.com/yang6512/EYToolkit.git`, branch `master`)
   - Masonry
   - MBProgressHUD
   - MJExtension
   - MJRefresh
   - pop
   - ReactiveCocoa
+  - RRToolKit (from `https://github.com/ringlong/RRToolKit`, branch `master`)
   - SDWebImage
   - TPKeyboardAvoiding
   - YTKNetwork
 
 EXTERNAL SOURCES:
-  EYToolkit:
+  RRToolKit:
     :branch: master
-    :git: https://github.com/yang6512/EYToolkit.git
+    :git: https://github.com/ringlong/RRToolKit
 
 CHECKOUT OPTIONS:
-  EYToolkit:
-    :commit: c2c5bc7a5b65ac1594fc90ea2e124c0574f2e995
-    :git: https://github.com/yang6512/EYToolkit.git
+  RRToolKit:
+    :commit: 2577e6e7ceb4a88cab37e5441d806297fbc317e3
+    :git: https://github.com/ringlong/RRToolKit
 
 SPEC CHECKSUMS:
   AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
   AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
-  EYToolkit: e4448fef33a97d91a984371d53e0b369cce36b77
   Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MJExtension: 524b4b939199ea34dc9e822babb915238c3c9167
   MJRefresh: 4b24394e577ea399fbc926e5b6072317aae2c152
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  RRToolKit: 4e09b49d589a4ad988363cbc8ae2cc3ac68b6c31
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
   TPKeyboardAvoiding: ee4dd35e3bb7bb64bfbda47e7cc9ba872ff10f77
   YTKNetwork: 6c42c364ac9139bdd5659e4816fce29156ca8fa9
 
-COCOAPODS: 0.36.4
+COCOAPODS: 0.37.1

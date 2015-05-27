@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7383F40BE357E9CBB27D14FB"
+               BlueprintIdentifier = "5B9A3AE0CEB57F94C0A9DEE6"
                BuildableName = "libPods-YTKNetwork.a"
                BlueprintName = "Pods-YTKNetwork"
                ReferencedContainer = "container:Pods.xcodeproj">

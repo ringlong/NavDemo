@@ -20,10 +20,6 @@
 
 @implementation AutoViewController
 
-static void blockCleanUp(__strong void(^*block)(void)) {
-    (*block)();
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     

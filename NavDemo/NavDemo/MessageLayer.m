@@ -283,7 +283,6 @@
         _mainTimer = nil;
         self.hidden = YES;
     }
-    
 }
 
 - (void)rearrangeMessagePosition {

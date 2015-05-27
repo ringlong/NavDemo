@@ -1,5 +1,8 @@
 platform:ios,'6.0'
 
+pod 'Masonry'
+pod 'YTKNetwork'
+pod 'AFNetworking'
 pod 'pop'
 pod 'MBProgressHUD'
 pod 'MJRefresh'

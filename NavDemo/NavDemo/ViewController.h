@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MBProgressHUD;
 
 @interface ViewController : UITableViewController
 
+@property (nonatomic, strong) MBProgressHUD *hud;
+
+- (void)showHudWithText:(NSString *)text time:(NSTimeInterval)time complitionHandler:(void (^)())handler;
+
+- (void)showHudWithText:(NSString *)text image:(UIImage *)image complitionHandler:(void (^)())handler;
 
 @end
 

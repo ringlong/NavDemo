@@ -21,7 +21,7 @@
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:view];
     self.window.rootViewController = nav;
     
-    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
 //    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0/255.0 green:175/255.0 blue:240/255.0 alpha:1]];
     [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor blueColor],
                                                          NSFontAttributeName: [UIFont systemFontOfSize:21]};

@@ -54,7 +54,6 @@
     
     [self setUpHud];
     [self test];
-    
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 }
 
@@ -159,7 +158,7 @@
     }
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    [[MessageLayer sharedMessageLayer] showMessage:@"test" lastTime:2];    
+    [[MessageLayer sharedMessageLayer] showMessage:@"test" lastTime:2];
 }
 
 @end

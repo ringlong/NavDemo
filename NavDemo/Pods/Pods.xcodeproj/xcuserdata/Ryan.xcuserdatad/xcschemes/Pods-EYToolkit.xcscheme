@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F92FAED3F96F8CCAB5781F42"
+               BlueprintIdentifier = "05850CF26F45F0CDCF2A3E68"
                BuildableName = "libPods-EYToolkit.a"
                BlueprintName = "Pods-EYToolkit"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14E17e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MasViewController">
+            <connections>
+                <outlet property="containerView" destination="QIo-Ze-Tao" id="B6y-le-Mli"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QIo-Ze-Tao" userLabel="container">
+                    <rect key="frame" x="30" y="100" width="540" height="339"/>
+                    <subviews>
+                        <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Lgx-qs-QMc">
+                            <rect key="frame" x="8" y="203" width="94" height="29"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="29" id="QJU-x2-m9Z"/>
+                                <constraint firstAttribute="width" constant="94" id="R7C-kk-DnN"/>
+                            </constraints>
+                            <connections>
+                                <action selector="leftControl:" destination="-1" eventType="valueChanged" id="bIS-9G-Pqn"/>
+                            </connections>
+                        </stepper>
+                        <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="JhI-8L-kdE">
+                            <rect key="frame" x="438" y="203" width="94" height="29"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="29" id="dPm-bv-3dX"/>
+                                <constraint firstAttribute="width" constant="94" id="tBq-Jd-eGd"/>
+                            </constraints>
+                            <connections>
+                                <action selector="rightControl:" destination="-1" eventType="valueChanged" id="Rrl-QJ-cLp"/>
+                            </connections>
+                        </stepper>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.36918938509999999" blue="0.67616551889999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="Lgx-qs-QMc" firstAttribute="leading" secondItem="QIo-Ze-Tao" secondAttribute="leading" constant="8" id="BTg-WL-Pq5"/>
+                        <constraint firstItem="JhI-8L-kdE" firstAttribute="top" secondItem="QIo-Ze-Tao" secondAttribute="top" constant="203" id="Fug-8v-nev"/>
+                        <constraint firstItem="Lgx-qs-QMc" firstAttribute="top" secondItem="QIo-Ze-Tao" secondAttribute="top" constant="203" id="ouJ-Cu-6gh"/>
+                        <constraint firstAttribute="trailing" secondItem="JhI-8L-kdE" secondAttribute="trailing" constant="8" id="rTj-Me-q0S"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="QIo-Ze-Tao" secondAttribute="trailing" constant="30" id="1ep-xe-b39"/>
+                <constraint firstItem="QIo-Ze-Tao" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="dc0-4N-vwa"/>
+                <constraint firstItem="QIo-Ze-Tao" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="drH-jy-hNi"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="QIo-Ze-Tao" secondAttribute="bottom" constant="100" id="dtd-F1-K9X"/>
+                <constraint firstAttribute="bottom" secondItem="QIo-Ze-Tao" secondAttribute="bottom" constant="161" id="qTZ-t6-0EN"/>
+            </constraints>
+            <point key="canvasLocation" x="367" y="398"/>
+        </view>
+    </objects>
+</document>

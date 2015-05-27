@@ -17,7 +17,7 @@
 * How to use it
 	* `JSONModel`：You `must` let `all` model class extends `JSONModel` class.
 	* `Mantle`：You `must` let `all` model class extends `MTModel` class.
-	* `MJExtension`：Your model class `don't need to` extends another base class. `Nonintrusive`, `convenient`.
+	* `MJExtension`：Your model class `don't need to` extends another base class. You don't need to modify any model file.  `Nonintrusive`, `convenient`.
 
 ## How
 * Cocoapods：`pod 'MJExtension'`
@@ -50,6 +50,8 @@ typedef enum {
 @property (strong, nonatomic) NSNumber *money;
 @property (assign, nonatomic) Sex sex;
 @end
+
+/***********************************************/
 
 NSDictionary *dict = @{
     @"name" : @"Jack",
@@ -92,6 +94,8 @@ NSLog(@"name=%@, icon=%@, age=%d", user.name, user.icon, user.age);
 @property (strong, nonatomic) User *user;
 @property (strong, nonatomic) Status *retweetedStatus;
 @end
+
+/***********************************************/
 
 NSDictionary *dict = @{
     @"text" : @"Agree!Nice weather!",
@@ -141,46 +145,44 @@ NSLog(@"text2=%@, name2=%@, icon2=%@", text2, name2, icon2);
 @property (strong, nonatomic) NSNumber *totalNumber;
 @end
 
-@implementation StatusResult
-
-@end
+/***********************************************/
 
 // Tell MJExtension what type model will be contained in statuses and ads.
 [StatusResult setupObjectClassInArray:^NSDictionary *{
     return @{
-             @"statuses" : @"Status",
-             @"ads" : @"Ad"
-             };
+               @"statuses" : @"Status",
+               @"ads" : @"Ad"
+           };
 }];
 // Equals: StatusResult.m implements +objectClassInArray method.
 
 NSDictionary *dict = @{
     @"statuses" : @[
-                    @{
-                    @"text" : @"Nice weather!",
-                    @"user" : @{
-                    @"name" : @"Rose",
-                    @"icon" : @"nami.png"
-                    }
-                    },
-                    @{
-                    @"text" : @"Go camping tomorrow!",
-                    @"user" : @{
-                    @"name" : @"Jack",
-                    @"icon" : @"lufy.png"
-                    }
-                    }
-                    ],
+                      @{
+                          @"text" : @"Nice weather!",
+                          @"user" : @{
+                              @"name" : @"Rose",
+                              @"icon" : @"nami.png"
+                          }
+                      },
+                      @{
+                          @"text" : @"Go camping tomorrow!",
+                          @"user" : @{
+                              @"name" : @"Jack",
+                              @"icon" : @"lufy.png"
+                          }
+                      }
+                  ],
     @"ads" : @[
-               @{
-               @"image" : @"ad01.png",
-               @"url" : @"http://www.ad01.com"
-               },
-               @{
-               @"image" : @"ad02.png",
-               @"url" : @"http://www.ad02.com"
-               }
-               ],
+                 @{
+                     @"image" : @"ad01.png",
+                     @"url" : @"http://www.ad01.com"
+                 },
+                 @{
+                     @"image" : @"ad02.png",
+                     @"url" : @"http://www.ad02.com"
+                 }
+             ],
     @"totalNumber" : @"2014"
 };
 
@@ -226,19 +228,18 @@ for (Ad *ad in result.ads) {
 @property (strong, nonatomic) Bag *bag;
 @end
 
-@implementation Student
-
-@end
+/***********************************************/
 
 // How to map
 [Student setupReplacedKeyFromPropertyName:^NSDictionary *{
-    return @{@"ID" : @"id",
-             @"desc" : @"desciption",
-             @"oldName" : @"name.oldName",
-             @"nowName" : @"name.newName",
-             @"nameChangedTime" : @"name.info.nameChangedTime",
-             @"bag" : @"other.bag"
-             };
+    return @{
+               @"ID" : @"id",
+               @"desc" : @"desciption",
+               @"oldName" : @"name.oldName",
+               @"nowName" : @"name.newName",
+               @"nameChangedTime" : @"name.info.nameChangedTime",
+               @"bag" : @"other.bag"
+           };
 }];
 // Equals: Student.m implements +replacedKeyFromPropertyName method.
 
@@ -276,15 +277,15 @@ NSLog(@"bagName=%@, bagPrice=%f", stu.bag.name, stu.bag.price);
 ## JSON array -> model array
 ```objc
 NSArray *dictArray = @[
-                       @{
-                       @"name" : @"Jack",
-                       @"icon" : @"lufy.png",
-                       },
-                       @{
-                       @"name" : @"Rose",
-                       @"icon" : @"nami.png",
-                       }
-                       ];
+                         @{
+                             @"name" : @"Jack",
+                             @"icon" : @"lufy.png"
+                         },
+                         @{
+                             @"name" : @"Rose",
+                             @"icon" : @"nami.png"
+                         }
+                     ];
 
 // JSON array -> User array
 NSArray *userArray = [User objectArrayWithKeyValuesArray:dictArray];
@@ -396,14 +397,14 @@ NSLog(@"%@", dictArray);
 ## Core Data
 ```objc
 NSDictionary *dict = @{
-                       @"name" : @"Jack",
-                       @"icon" : @"lufy.png",
-                       @"age" : @20,
-                       @"height" : @1.55,
-                       @"money" : @"100.9",
-                       @"sex" : @(SexFemale),
-                       @"gay" : @"true"
-                       };
+                         @"name" : @"Jack",
+                         @"icon" : @"lufy.png",
+                         @"age" : @20,
+                         @"height" : @1.55,
+                         @"money" : @"100.9",
+                         @"sex" : @(SexFemale),
+                         @"gay" : @"true"
+                     };
 
 // This demo just provide simple steps
 NSManagedObjectContext *context = nil;
@@ -422,6 +423,9 @@ User *user = [User objectWithKeyValues:dict context:context];
 // NSCoding Implementation
 MJCodingImplementation
 @end
+
+/***********************************************/
+
 // what properties not to be coded
 [Bag setupIgnoredCodingPropertyNames:^NSArray *{
     return @[@"name"];
@@ -472,7 +476,7 @@ NSLog(@"name=%@, price=%f", decodedBag.name, decodedBag.price);
 * 具体用法：
 	* `JSONModel`：要求所有模型类`必须`继承自JSONModel基类
 	* `Mantle`：要求所有模型类`必须`继承自MTModel基类
-	* `MJExtension`：`不需要`你的模型类继承任何特殊基类，毫无污染，毫无侵入性
+	* `MJExtension`：`不需要`你的模型类继承任何特殊基类，也不需要修改任何模型代码，毫无污染，毫无侵入性
 
 ## 如何使用MJExtension
 * cocoapods导入：`pod 'MJExtension'`
@@ -505,6 +509,8 @@ typedef enum {
 @property (strong, nonatomic) NSNumber *money;
 @property (assign, nonatomic) Sex sex;
 @end
+
+/***********************************************/
 
 NSDictionary *dict = @{
                @"name" : @"Jack",
@@ -550,6 +556,8 @@ NSLog(@"name=%@, icon=%@, age=%d", user.name, user.icon, user.age);
 /** 转发的微博 */
 @property (strong, nonatomic) Status *retweetedStatus;
 @end
+
+/***********************************************/
 
 NSDictionary *dict = @{
                @"text" : @"是啊，今天天气确实不错！",
@@ -599,9 +607,7 @@ NSLog(@"text2=%@, name2=%@, icon2=%@", text2, name2, icon2);
 @property (strong, nonatomic) NSNumber *totalNumber;
 @end
 
-@implementation StatusResult
-
-@end
+/***********************************************/
 
 // StatusResult类中的statuses数组中存放的是Status模型
 // StatusResult类中的ads数组中存放的是Ad模型
@@ -687,9 +693,7 @@ for (Ad *ad in result.ads) {
 @property (strong, nonatomic) Bag *bag;
 @end
 
-@implementation Student
-
-@end
+/***********************************************/
 
 // Student中的ID属性对应着字典中的id
 // ....
@@ -886,6 +890,9 @@ User *user = [User objectWithKeyValues:dict context:context];
 // NSCoding实现
 MJCodingImplementation
 @end
+
+/***********************************************/
+
 // Bag类中的name属性不参与归档
 [Bag setupIgnoredCodingPropertyNames:^NSArray *{
     return @[@"name"];

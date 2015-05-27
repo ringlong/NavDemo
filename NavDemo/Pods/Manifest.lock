@@ -25,7 +25,7 @@ PODS:
   - EYToolkit (1.0.0)
   - Masonry (0.6.1)
   - MBProgressHUD (0.9.1)
-  - MJExtension (2.0.0)
+  - MJExtension (2.0.1)
   - MJRefresh (1.4.5)
   - pop (1.0.7)
   - ReactiveCocoa (2.5):
@@ -72,7 +72,7 @@ SPEC CHECKSUMS:
   EYToolkit: e4448fef33a97d91a984371d53e0b369cce36b77
   Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
-  MJExtension: 6e8f19786bacf20efa4d0ffeb8054f4cdd7754c4
+  MJExtension: 524b4b939199ea34dc9e822babb915238c3c9167
   MJRefresh: 4b24394e577ea399fbc926e5b6072317aae2c152
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a

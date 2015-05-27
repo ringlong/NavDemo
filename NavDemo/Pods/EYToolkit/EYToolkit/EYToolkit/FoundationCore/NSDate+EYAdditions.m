@@ -110,7 +110,7 @@ EY_FIX_CATEGORY_BUG(NSDateEYAdditions)
 	if (components1.week != components2.week) return NO;
 	
 	// Must have a time interval under 1 week. Thanks @aclark
-	return (fabs([self timeIntervalSinceDate:aDate]) < D_WEEK);
+	return (abs([self timeIntervalSinceDate:aDate]) < D_WEEK);
 }
 
 - (BOOL) isThisWeek

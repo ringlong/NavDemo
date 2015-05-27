@@ -19,6 +19,7 @@
 #import "AutoViewController.h"
 #import "WaterFallViewController.h"
 #import "ChartViewController.h"
+#import "MasViewController.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -53,6 +54,8 @@
     
     [self setUpHud];
     [self test];
+    
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 }
 
 - (void)test {
@@ -126,10 +129,6 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-    if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-        cell.textLabel.textColor = [UIColor blackColor];
-    }
     cell.textLabel.text = self.dataSource[indexPath.row];
     return cell;
 }
@@ -154,9 +153,13 @@
         ChartViewController *chartView = [[ChartViewController alloc] init];
         [self.navigationController pushViewController:chartView animated:YES];
     }
+    if (indexPath.row == 5) {
+        MasViewController *masView = [[MasViewController alloc] init];
+        [self.navigationController pushViewController:masView animated:YES];
+    }
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    [[MessageLayer sharedMessageLayer] showMessage:@"test" lastTime:2];
+    [[MessageLayer sharedMessageLayer] showMessage:@"test" lastTime:2];    
 }
 
 @end

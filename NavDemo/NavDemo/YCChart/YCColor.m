@@ -141,4 +141,11 @@
                            alpha:1.0f];
 }
 
++ (UIColor *)colorWithPercent:(CGFloat)percent {
+    return [UIColor colorWithRed:82.0 / 255.0
+                           green:116.0 / 255.0
+                            blue:188.0 / 255.0 * percent
+                           alpha:1];
+}
+
 @end

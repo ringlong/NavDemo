@@ -1,7 +1,8 @@
 platform:ios,'6.0'
 
+inhibit_all_warnings!
+
 pod 'Masonry'
-pod 'YTKNetwork'
 pod 'AFNetworking'
 pod 'pop'
 pod 'MBProgressHUD'
@@ -12,4 +13,6 @@ pod 'TPKeyboardAvoiding'
 pod 'ReactiveCocoa'
 pod 'Masonry'
 pod 'RRToolKit', :git => 'https://github.com/ringlong/RRToolKit', :branch => 'master'
+pod 'IQKeyboardManager'
+pod 'FLEX'
 

@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "UINavigationBar+Awesome.h"
-#import "EYToolkit.h"
+#import "RRToolkit.h"
 #import "MessageLayer.h"
 #import "NetworkManager.h"
 #import "MJRefresh.h"
@@ -20,6 +20,12 @@
 #import "WaterFallViewController.h"
 #import "ChartViewController.h"
 #import "MasViewController.h"
+#import "SearchViewController.h"
+#import "CustomeTableViewCell.h"
+#import "DecayViewController.h"
+#import "CircleViewController.h"
+#import "ImageViewController.h"
+#import "RRActionSheet.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -41,26 +47,27 @@
     self.tableView.tableHeaderView = topImage;
     
     @weakify(self)
-    [self.tableView addGifHeaderWithRefreshingBlock:^{
+    self.tableView.header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         @strongify(self)
         [[MessageLayer sharedMessageLayer] showMessage:@"刷新完成" lastTime:2];
         [self.tableView.header endRefreshing];
     }];
-    
-    [self.tableView addLegendFooterWithRefreshingBlock:^{
+    self.tableView.footer = [MJRefreshBackNormalFooter footerWithRefreshingBlock:^{
         @strongify(self)
         [self loadMore];
     }];
-    
+        
     [self setUpHud];
     [self test];
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+//    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    self.tableView.sectionHeaderHeight = 30;
+    self.tableView.separatorColor = [UIColor colorWithRGBHex:0xececec];
+    if ([self.tableView respondsToSelector:@selector(setSectionIndexBackgroundColor:)]) {
+        self.tableView.sectionIndexBackgroundColor = [UIColor colorWithRGBHex:0xf5f5f5];
+    }
 }
 
 - (void)test {
-    NSString *a = @"test";
-    NSString *b = a?:@"";
-    NSLog(@"%@", b);
 }
 
 - (void)setUpHud {
@@ -127,9 +134,22 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    CustomeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (!cell) {
+        cell = [[CustomeTableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];
+    }
     cell.textLabel.text = self.dataSource[indexPath.row];
+    cell.detailTextLabel.textAlignment = NSTextAlignmentLeft;
+    cell.detailTextLabel.text = @"detail";
     return cell;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return @"test";
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 44;
 }
 
 #pragma mark - UITableViewDelegate
@@ -145,8 +165,8 @@
         [self.navigationController pushViewController:autoo animated:YES];
     }
     if (indexPath.row == 3) {
-        WaterFallViewController *waterFall = [[WaterFallViewController alloc] init];
-        [self.navigationController pushViewController:waterFall animated:YES];
+//        WaterFallViewController *waterFall = [[WaterFallViewController alloc] init];
+//        [self.navigationController pushViewController:waterFall animated:YES];
     }
     if (indexPath.row == 4) {
         ChartViewController *chartView = [[ChartViewController alloc] init];
@@ -156,9 +176,24 @@
         MasViewController *masView = [[MasViewController alloc] init];
         [self.navigationController pushViewController:masView animated:YES];
     }
+    if (indexPath.row == 6) {
+        SearchViewController *search = [[SearchViewController alloc] init];
+        [self.navigationController pushViewController:search animated:YES];
+    }
+    if (indexPath.row == 7) {
+        DecayViewController *decay = [[DecayViewController alloc] init];
+        [self.navigationController pushViewController:decay animated:YES];
+    }
+    if (indexPath.row == 8) {
+        CircleViewController *circle = [[CircleViewController alloc] init];
+        [self.navigationController pushViewController:circle animated:YES];
+    }
+    if (indexPath.row == 9) {
+        ImageViewController *image = [ImageViewController new];
+        [self.navigationController pushViewController:image animated:YES];
+    }
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    [[MessageLayer sharedMessageLayer] showMessage:@"test" lastTime:2];
 }
 
 @end

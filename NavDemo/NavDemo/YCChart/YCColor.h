@@ -71,6 +71,7 @@ static const CGRange CGRangeZero = {0, 0};
 + (UIColor *)YCWeiboColor;
 + (UIColor *)YCiOSGreenColor;
 + (UIColor *)randomColor;
++ (UIColor *)colorWithPercent:(CGFloat)percent;
 
 @end
 

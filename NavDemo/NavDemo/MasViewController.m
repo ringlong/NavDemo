@@ -8,13 +8,16 @@
 
 #import "MasViewController.h"
 #import "Masonry.h"
+#import "RRToolkit/RRToolkit.h"
 
 @interface MasViewController ()
 
 @property (weak, nonatomic) IBOutlet UIView *containerView;
 @property (nonatomic) double leftPreviousValue;
+@property (nonatomic) double rightPreviousValue;
 - (IBAction)leftControl:(UIStepper *)sender;
 - (IBAction)rightControl:(UIStepper *)sender;
+- (IBAction)adjustScale:(UISlider *)sender;
 
 @end
 
@@ -57,6 +60,30 @@
     [label2 setContentCompressionResistancePriority:UILayoutPriorityDefaultLow
                                             forAxis:UILayoutConstraintAxisHorizontal];
     self.leftPreviousValue = 0;
+    self.rightPreviousValue = 0;
+    
+    UIView *superView = [[UIView alloc] init];
+    superView.tag = 102;
+    superView.backgroundColor = [UIColor brownColor];
+    [self.containerView addSubview:superView];
+    
+    UIView *subView = [UIView new];
+    subView.backgroundColor = [UIColor purpleColor];
+    [superView addSubview:subView];
+    
+    [superView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(label1.mas_left);
+        make.top.equalTo(label1.mas_bottom).offset(150);
+        make.width.mas_equalTo(@150);
+        make.height.mas_equalTo(@40);
+    }];
+    
+    [subView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(superView.mas_top);
+        make.bottom.equalTo(superView.mas_bottom);
+        make.left.equalTo(superView.mas_left);
+        make.width.equalTo(superView.mas_width).multipliedBy(0.5);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -76,11 +103,19 @@
 
 - (IBAction)rightControl:(UIStepper *)sender {
     UILabel *label = (UILabel *)[self.containerView viewWithTag:101];
-    if (sender.value > _leftPreviousValue) {
+    if (sender.value > _rightPreviousValue) {
         label.text = [label.text stringByAppendingString:@"label"];
     } else {
         label.text = [label.text substringToIndex:label.text.length - (@"label").length];
     }
-    self.leftPreviousValue = sender.value;
+    self.rightPreviousValue = sender.value;
 }
+
+- (IBAction)adjustScale:(UISlider *)sender {
+    UIView *superView = [self.containerView viewWithTag:102];
+    [superView mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.width.mas_equalTo(@(superView.width * sender.value));
+    }];
+}
+
 @end

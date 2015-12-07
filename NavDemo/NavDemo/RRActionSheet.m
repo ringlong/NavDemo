@@ -29,6 +29,7 @@ const NSTimeInterval kAnimationDuration = 0.2;
 - (void)setUserInterface;
 - (void)hideActionSheet;
 - (void)cancelButtonClicked;
+
 @end
 
 @implementation RRActionSheet

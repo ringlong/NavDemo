@@ -16,6 +16,39 @@
 		26DFC5341B4C10FC0040AAAE /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DFC5331B4C10FC0040AAAE /* TestView.m */; };
 		26DFC5361B4C112E0040AAAE /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26DFC5351B4C112E0040AAAE /* TestView.xib */; };
 		866067020E9A3B4FD9F6B6CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 171D5551CF206A5F94C7A3C7 /* libPods.a */; };
+		9405C22E1B7AD958005CFBD4 /* YCVoteBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9405C22D1B7AD958005CFBD4 /* YCVoteBar.m */; };
+		9459D9851AEB357100801608 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9459D9841AEB357100801608 /* NetworkManager.m */; };
+		9459D9891AEBBB1B00801608 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9459D9871AEBBB1B00801608 /* LoginViewController.m */; };
+		9459D98E1AEC8A6C00801608 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9459D98D1AEC8A6C00801608 /* LoginViewController.xib */; };
+		946D612B1AFE537A00A7FF08 /* AnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 946D612A1AFE537A00A7FF08 /* AnimationButton.m */; };
+		947223771B564B1A009DDBD2 /* RRActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 947223761B564B1A009DDBD2 /* RRActionSheet.m */; };
+		94873E4A1B4F9FCF00B7E5FE /* DecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873E491B4F9FCF00B7E5FE /* DecayViewController.m */; };
+		94873E4E1B4FAAC400B7E5FE /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873E4D1B4FAAC400B7E5FE /* CircleView.m */; };
+		94873E511B4FAEEE00B7E5FE /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873E501B4FAEEE00B7E5FE /* CircleViewController.m */; };
+		94873E541B4FB45400B7E5FE /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94873E531B4FB45400B7E5FE /* ImageViewController.m */; };
+		9499221D1B0D780200A6A60A /* AutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499221B1B0D780200A6A60A /* AutoViewController.m */; };
+		9499221E1B0D780200A6A60A /* AutoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9499221C1B0D780200A6A60A /* AutoViewController.xib */; };
+		949922211B0F203A00A6A60A /* WaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949922201B0F203A00A6A60A /* WaterFallViewController.m */; };
+		949922241B0F217800A6A60A /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 949922231B0F217800A6A60A /* WaterFlowLayout.m */; };
+		949922271B0F22A900A6A60A /* WaterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 949922261B0F22A900A6A60A /* WaterCollectionViewCell.m */; };
+		9499222E1B131F6500A6A60A /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499222D1B131F6500A6A60A /* ChartViewController.m */; };
+		9499223D1B1326CB00A6A60A /* YCBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 949922321B1326CB00A6A60A /* YCBar.m */; };
+		9499223E1B1326CB00A6A60A /* YCBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 949922341B1326CB00A6A60A /* YCBarChart.m */; };
+		9499223F1B1326CB00A6A60A /* YCChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 949922361B1326CB00A6A60A /* YCChart.m */; };
+		949922401B1326CB00A6A60A /* YCChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 949922381B1326CB00A6A60A /* YCChartLabel.m */; };
+		949922411B1326CB00A6A60A /* YCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499223A1B1326CB00A6A60A /* YCColor.m */; };
+		949922421B1326CB00A6A60A /* YCLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9499223C1B1326CB00A6A60A /* YCLineChart.m */; };
+		949B25B81B462BED00E29919 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949B25B71B462BED00E29919 /* SearchViewController.m */; };
+		94B6738C1B7AF00C0039BC93 /* YCVoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B6738B1B7AF00C0039BC93 /* YCVoteView.m */; };
+		94B6FD3F1B16C5B700D792DC /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B6FD3E1B16C5B700D792DC /* InterfaceController.m */; };
+		94B6FD421B16C5B700D792DC /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B6FD411B16C5B700D792DC /* NotificationController.m */; };
+		94B6FD451B16C5B700D792DC /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B6FD441B16C5B700D792DC /* GlanceController.m */; };
+		94B6FD471B16C5B700D792DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B6FD461B16C5B700D792DC /* Images.xcassets */; };
+		94B6FD4B1B16C5B700D792DC /* NavDemo WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 94B6FD4A1B16C5B700D792DC /* NavDemo WatchKit App.app */; };
+		94B6FD531B16C5B700D792DC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B6FD511B16C5B700D792DC /* Interface.storyboard */; };
+		94B6FD551B16C5B700D792DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B6FD541B16C5B700D792DC /* Images.xcassets */; };
+		94B6FD581B16C5B700D792DC /* NavDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 94B6FD381B16C5B700D792DC /* NavDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		94BEEB231B1C4CED0069836E /* SlideControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BEEB221B1C4CED0069836E /* SlideControl.m */; };
 		94D7E1961AE8C8BB00153228 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7E1951AE8C8BB00153228 /* main.m */; };
 		94D7E1991AE8C8BB00153228 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7E1981AE8C8BB00153228 /* AppDelegate.m */; };
 		94D7E19C1AE8C8BB00153228 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7E19B1AE8C8BB00153228 /* ViewController.m */; };
@@ -27,9 +60,24 @@
 		94D7E1BC1AE8D0D600153228 /* per_center_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D7E1BA1AE8D0D600153228 /* per_center_bg@3x.png */; };
 		94D7E1BF1AE8E0A000153228 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7E1BE1AE8E0A000153228 /* UINavigationBar+Awesome.m */; };
 		94D7E1C31AE9D31600153228 /* MessageLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7E1C21AE9D31600153228 /* MessageLayer.m */; };
+		94DE4E371B4B7E7C007AA72E /* CustomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DE4E361B4B7E7C007AA72E /* CustomeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		94B6FD4C1B16C5B700D792DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D7E1881AE8C8BB00153228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B6FD491B16C5B700D792DC;
+			remoteInfo = "NavDemo WatchKit App";
+		};
+		94B6FD561B16C5B700D792DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D7E1881AE8C8BB00153228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B6FD371B16C5B700D792DC;
+			remoteInfo = "NavDemo WatchKit Extension";
+		};
 		94D7E1AA1AE8C8BB00153228 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 94D7E1881AE8C8BB00153228 /* Project object */;
@@ -38,6 +86,20 @@
 			remoteInfo = NavDemo;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94B6FD5F1B16C5B700D792DC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				94B6FD581B16C5B700D792DC /* NavDemo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		171D5551CF206A5F94C7A3C7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,13 +118,76 @@
 		26DFC5331B4C10FC0040AAAE /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		26DFC5351B4C112E0040AAAE /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
 		26E210071B55475900CAEB4E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		9405C22C1B7AD958005CFBD4 /* YCVoteBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCVoteBar.h; sourceTree = "<group>"; };
+		9405C22D1B7AD958005CFBD4 /* YCVoteBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCVoteBar.m; sourceTree = "<group>"; };
+		9459D9831AEB357100801608 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		9459D9841AEB357100801608 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		9459D9861AEBBB1B00801608 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9459D9871AEBBB1B00801608 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LoginViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9459D98D1AEC8A6C00801608 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		946D61291AFE537A00A7FF08 /* AnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationButton.h; sourceTree = "<group>"; };
+		946D612A1AFE537A00A7FF08 /* AnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationButton.m; sourceTree = "<group>"; };
+		947223751B564B1A009DDBD2 /* RRActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRActionSheet.h; sourceTree = "<group>"; };
+		947223761B564B1A009DDBD2 /* RRActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRActionSheet.m; sourceTree = "<group>"; };
+		94873E481B4F9FCF00B7E5FE /* DecayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayViewController.h; sourceTree = "<group>"; };
+		94873E491B4F9FCF00B7E5FE /* DecayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayViewController.m; sourceTree = "<group>"; };
+		94873E4C1B4FAAC400B7E5FE /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		94873E4D1B4FAAC400B7E5FE /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		94873E4F1B4FAEEE00B7E5FE /* CircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
+		94873E501B4FAEEE00B7E5FE /* CircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController.m; sourceTree = "<group>"; };
+		94873E521B4FB45400B7E5FE /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		94873E531B4FB45400B7E5FE /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		9499221A1B0D780200A6A60A /* AutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoViewController.h; sourceTree = "<group>"; };
+		9499221B1B0D780200A6A60A /* AutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AutoViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9499221C1B0D780200A6A60A /* AutoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoViewController.xib; sourceTree = "<group>"; };
+		9499221F1B0F203A00A6A60A /* WaterFallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallViewController.h; sourceTree = "<group>"; };
+		949922201B0F203A00A6A60A /* WaterFallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WaterFallViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		949922221B0F217800A6A60A /* WaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		949922231B0F217800A6A60A /* WaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
+		949922251B0F22A900A6A60A /* WaterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterCollectionViewCell.h; sourceTree = "<group>"; };
+		949922261B0F22A900A6A60A /* WaterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WaterCollectionViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9499222C1B131F6500A6A60A /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		9499222D1B131F6500A6A60A /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ChartViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		949922311B1326CB00A6A60A /* YCBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YCBar.h; path = YCChart/YCBar.h; sourceTree = "<group>"; };
+		949922321B1326CB00A6A60A /* YCBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YCBar.m; path = YCChart/YCBar.m; sourceTree = "<group>"; };
+		949922331B1326CB00A6A60A /* YCBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YCBarChart.h; path = YCChart/YCBarChart.h; sourceTree = "<group>"; };
+		949922341B1326CB00A6A60A /* YCBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YCBarChart.m; path = YCChart/YCBarChart.m; sourceTree = "<group>"; };
+		949922351B1326CB00A6A60A /* YCChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YCChart.h; path = YCChart/YCChart.h; sourceTree = "<group>"; };
+		949922361B1326CB00A6A60A /* YCChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YCChart.m; path = YCChart/YCChart.m; sourceTree = "<group>"; };
+		949922371B1326CB00A6A60A /* YCChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YCChartLabel.h; path = YCChart/YCChartLabel.h; sourceTree = "<group>"; };
+		949922381B1326CB00A6A60A /* YCChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YCChartLabel.m; path = YCChart/YCChartLabel.m; sourceTree = "<group>"; };
+		949922391B1326CB00A6A60A /* YCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YCColor.h; path = YCChart/YCColor.h; sourceTree = "<group>"; };
+		9499223A1B1326CB00A6A60A /* YCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YCColor.m; path = YCChart/YCColor.m; sourceTree = "<group>"; };
+		9499223B1B1326CB00A6A60A /* YCLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YCLineChart.h; path = YCChart/YCLineChart.h; sourceTree = "<group>"; };
+		9499223C1B1326CB00A6A60A /* YCLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YCLineChart.m; path = YCChart/YCLineChart.m; sourceTree = "<group>"; };
+		949B25AC1B44FF4600E29919 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		949B25B61B462BED00E29919 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		949B25B71B462BED00E29919 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		94B6738A1B7AF00C0039BC93 /* YCVoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCVoteView.h; sourceTree = "<group>"; };
+		94B6738B1B7AF00C0039BC93 /* YCVoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCVoteView.m; sourceTree = "<group>"; };
+		94B6FD381B16C5B700D792DC /* NavDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NavDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B6FD3B1B16C5B700D792DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B6FD3C1B16C5B700D792DC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		94B6FD3D1B16C5B700D792DC /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		94B6FD3E1B16C5B700D792DC /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		94B6FD401B16C5B700D792DC /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		94B6FD411B16C5B700D792DC /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		94B6FD431B16C5B700D792DC /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		94B6FD441B16C5B700D792DC /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		94B6FD461B16C5B700D792DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94B6FD4A1B16C5B700D792DC /* NavDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NavDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B6FD501B16C5B700D792DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B6FD521B16C5B700D792DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		94B6FD541B16C5B700D792DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94BEEB211B1C4CED0069836E /* SlideControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideControl.h; sourceTree = "<group>"; };
+		94BEEB221B1C4CED0069836E /* SlideControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideControl.m; sourceTree = "<group>"; };
 		94D7E1901AE8C8BB00153228 /* NavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D7E1941AE8C8BB00153228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D7E1951AE8C8BB00153228 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94D7E1971AE8C8BB00153228 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94D7E1981AE8C8BB00153228 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		94D7E19A1AE8C8BB00153228 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		94D7E19B1AE8C8BB00153228 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94D7E19B1AE8C8BB00153228 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		94D7E19E1AE8C8BB00153228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94D7E1A01AE8C8BB00153228 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94D7E1A31AE8C8BB00153228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -73,13 +198,21 @@
 		94D7E1BA1AE8D0D600153228 /* per_center_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "per_center_bg@3x.png"; sourceTree = "<group>"; };
 		94D7E1BD1AE8E0A000153228 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
 		94D7E1BE1AE8E0A000153228 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
-		94D7E1C01AE9379000153228 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		94D7E1C11AE9D31600153228 /* MessageLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageLayer.h; sourceTree = "<group>"; };
-		94D7E1C21AE9D31600153228 /* MessageLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageLayer.m; sourceTree = "<group>"; };
+		94D7E1C21AE9D31600153228 /* MessageLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MessageLayer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		94DE4E351B4B7E7C007AA72E /* CustomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeTableViewCell.h; sourceTree = "<group>"; };
+		94DE4E361B4B7E7C007AA72E /* CustomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeTableViewCell.m; sourceTree = "<group>"; };
 		C92D724350C41F98A88F2907 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		94B6FD351B16C5B700D792DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94D7E18D1AE8C8BB00153228 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,11 +231,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9405C22B1B7AD918005CFBD4 /* YCVoteView */ = {
+			isa = PBXGroup;
+			children = (
+				9405C22C1B7AD958005CFBD4 /* YCVoteBar.h */,
+				9405C22D1B7AD958005CFBD4 /* YCVoteBar.m */,
+				94B6738A1B7AF00C0039BC93 /* YCVoteView.h */,
+				94B6738B1B7AF00C0039BC93 /* YCVoteView.m */,
+			);
+			name = YCVoteView;
+			sourceTree = "<group>";
+		};
+		9459D97F1AEA3E1000801608 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				9459D9831AEB357100801608 /* NetworkManager.h */,
+				9459D9841AEB357100801608 /* NetworkManager.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		94873E4B1B4FAA9900B7E5FE /* CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				94873E4C1B4FAAC400B7E5FE /* CircleView.h */,
+				94873E4D1B4FAAC400B7E5FE /* CircleView.m */,
+			);
+			name = CircleView;
+			sourceTree = "<group>";
+		};
+		949922431B1326E600A6A60A /* YCChart */ = {
+			isa = PBXGroup;
+			children = (
+				949922311B1326CB00A6A60A /* YCBar.h */,
+				949922321B1326CB00A6A60A /* YCBar.m */,
+				949922331B1326CB00A6A60A /* YCBarChart.h */,
+				949922341B1326CB00A6A60A /* YCBarChart.m */,
+				949922351B1326CB00A6A60A /* YCChart.h */,
+				949922361B1326CB00A6A60A /* YCChart.m */,
+				949922371B1326CB00A6A60A /* YCChartLabel.h */,
+				949922381B1326CB00A6A60A /* YCChartLabel.m */,
+				949922391B1326CB00A6A60A /* YCColor.h */,
+				9499223A1B1326CB00A6A60A /* YCColor.m */,
+				9499223B1B1326CB00A6A60A /* YCLineChart.h */,
+				9499223C1B1326CB00A6A60A /* YCLineChart.m */,
+			);
+			name = YCChart;
+			sourceTree = "<group>";
+		};
+		94B6FD391B16C5B700D792DC /* NavDemo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				94B6FD3D1B16C5B700D792DC /* InterfaceController.h */,
+				94B6FD3E1B16C5B700D792DC /* InterfaceController.m */,
+				94B6FD401B16C5B700D792DC /* NotificationController.h */,
+				94B6FD411B16C5B700D792DC /* NotificationController.m */,
+				94B6FD431B16C5B700D792DC /* GlanceController.h */,
+				94B6FD441B16C5B700D792DC /* GlanceController.m */,
+				94B6FD461B16C5B700D792DC /* Images.xcassets */,
+				94B6FD3A1B16C5B700D792DC /* Supporting Files */,
+			);
+			path = "NavDemo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		94B6FD3A1B16C5B700D792DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94B6FD3B1B16C5B700D792DC /* Info.plist */,
+				94B6FD3C1B16C5B700D792DC /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94B6FD4E1B16C5B700D792DC /* NavDemo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				94B6FD511B16C5B700D792DC /* Interface.storyboard */,
+				94B6FD541B16C5B700D792DC /* Images.xcassets */,
+				94B6FD4F1B16C5B700D792DC /* Supporting Files */,
+			);
+			path = "NavDemo WatchKit App";
+			sourceTree = "<group>";
+		};
+		94B6FD4F1B16C5B700D792DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94B6FD501B16C5B700D792DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94BEEB201B1C4CC40069836E /* SlideControl */ = {
+			isa = PBXGroup;
+			children = (
+				94BEEB211B1C4CED0069836E /* SlideControl.h */,
+				94BEEB221B1C4CED0069836E /* SlideControl.m */,
+			);
+			name = SlideControl;
+			sourceTree = "<group>";
+		};
 		94D7E1871AE8C8BB00153228 = {
 			isa = PBXGroup;
 			children = (
 				94D7E1921AE8C8BB00153228 /* NavDemo */,
 				94D7E1AC1AE8C8BB00153228 /* NavDemoTests */,
+				94B6FD391B16C5B700D792DC /* NavDemo WatchKit Extension */,
+				94B6FD4E1B16C5B700D792DC /* NavDemo WatchKit App */,
 				94D7E1911AE8C8BB00153228 /* Products */,
 				B34DA4F95A65D0A5EAD72051 /* Pods */,
 				CC5F57E5EB9520B1A46C4695 /* Frameworks */,
@@ -114,6 +348,8 @@
 			children = (
 				94D7E1901AE8C8BB00153228 /* NavDemo.app */,
 				94D7E1A91AE8C8BB00153228 /* NavDemoTests.xctest */,
+				94B6FD381B16C5B700D792DC /* NavDemo WatchKit Extension.appex */,
+				94B6FD4A1B16C5B700D792DC /* NavDemo WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +372,42 @@
 				26B06C3D1B5E814D00A71C2F /* GradientViewController.h */,
 				26B06C3E1B5E814D00A71C2F /* GradientViewController.m */,
 				26B06C3F1B5E814D00A71C2F /* GradientViewController.xib */,
+				94DE4E351B4B7E7C007AA72E /* CustomeTableViewCell.h */,
+				94DE4E361B4B7E7C007AA72E /* CustomeTableViewCell.m */,
+				9459D9861AEBBB1B00801608 /* LoginViewController.h */,
+				9459D9871AEBBB1B00801608 /* LoginViewController.m */,
+				9459D98D1AEC8A6C00801608 /* LoginViewController.xib */,
+				94D7E1C11AE9D31600153228 /* MessageLayer.h */,
+				94D7E1C21AE9D31600153228 /* MessageLayer.m */,
+				946D61291AFE537A00A7FF08 /* AnimationButton.h */,
+				946D612A1AFE537A00A7FF08 /* AnimationButton.m */,
+				9499221A1B0D780200A6A60A /* AutoViewController.h */,
+				9499221B1B0D780200A6A60A /* AutoViewController.m */,
+				9499221C1B0D780200A6A60A /* AutoViewController.xib */,
+				9499221F1B0F203A00A6A60A /* WaterFallViewController.h */,
+				949922201B0F203A00A6A60A /* WaterFallViewController.m */,
+				949922221B0F217800A6A60A /* WaterFlowLayout.h */,
+				949922231B0F217800A6A60A /* WaterFlowLayout.m */,
+				949922251B0F22A900A6A60A /* WaterCollectionViewCell.h */,
+				949922261B0F22A900A6A60A /* WaterCollectionViewCell.m */,
+				9499222C1B131F6500A6A60A /* ChartViewController.h */,
+				9499222D1B131F6500A6A60A /* ChartViewController.m */,
+				949B25B61B462BED00E29919 /* SearchViewController.h */,
+				949B25B71B462BED00E29919 /* SearchViewController.m */,
+				94873E481B4F9FCF00B7E5FE /* DecayViewController.h */,
+				94873E491B4F9FCF00B7E5FE /* DecayViewController.m */,
+				94873E4F1B4FAEEE00B7E5FE /* CircleViewController.h */,
+				94873E501B4FAEEE00B7E5FE /* CircleViewController.m */,
+				94873E521B4FB45400B7E5FE /* ImageViewController.h */,
+				94873E531B4FB45400B7E5FE /* ImageViewController.m */,
+				947223751B564B1A009DDBD2 /* RRActionSheet.h */,
+				947223761B564B1A009DDBD2 /* RRActionSheet.m */,
+				9405C22B1B7AD918005CFBD4 /* YCVoteView */,
+				94873E4B1B4FAA9900B7E5FE /* CircleView */,
+				949B25AC1B44FF4600E29919 /* MyPlayground.playground */,
+				94BEEB201B1C4CC40069836E /* SlideControl */,
+				949922431B1326E600A6A60A /* YCChart */,
+				9459D97F1AEA3E1000801608 /* Request */,
 				2678E9F01B149EDC0089F41A /* MasViewController.h */,
 				2678E9F11B149EDC0089F41A /* MasViewController.m */,
 				2678E9F21B149EDC0089F41A /* MasViewController.xib */,
@@ -158,7 +430,6 @@
 				94D7E1BA1AE8D0D600153228 /* per_center_bg@3x.png */,
 				94D7E1941AE8C8BB00153228 /* Info.plist */,
 				94D7E1951AE8C8BB00153228 /* main.m */,
-				94D7E1C01AE9379000153228 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -200,6 +471,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		94B6FD371B16C5B700D792DC /* NavDemo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B6FD5E1B16C5B700D792DC /* Build configuration list for PBXNativeTarget "NavDemo WatchKit Extension" */;
+			buildPhases = (
+				94B6FD341B16C5B700D792DC /* Sources */,
+				94B6FD351B16C5B700D792DC /* Frameworks */,
+				94B6FD361B16C5B700D792DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B6FD4D1B16C5B700D792DC /* PBXTargetDependency */,
+			);
+			name = "NavDemo WatchKit Extension";
+			productName = "NavDemo WatchKit Extension";
+			productReference = 94B6FD381B16C5B700D792DC /* NavDemo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		94B6FD491B16C5B700D792DC /* NavDemo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B6FD5D1B16C5B700D792DC /* Build configuration list for PBXNativeTarget "NavDemo WatchKit App" */;
+			buildPhases = (
+				94B6FD481B16C5B700D792DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NavDemo WatchKit App";
+			productName = "NavDemo WatchKit App";
+			productReference = 94B6FD4A1B16C5B700D792DC /* NavDemo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		94D7E18F1AE8C8BB00153228 /* NavDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94D7E1B31AE8C8BB00153228 /* Build configuration list for PBXNativeTarget "NavDemo" */;
@@ -209,10 +513,12 @@
 				94D7E18D1AE8C8BB00153228 /* Frameworks */,
 				94D7E18E1AE8C8BB00153228 /* Resources */,
 				7516C738AD9C6ACCF4D78607 /* Copy Pods Resources */,
+				94B6FD5F1B16C5B700D792DC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				94B6FD571B16C5B700D792DC /* PBXTargetDependency */,
 			);
 			name = NavDemo;
 			productName = NavDemo;
@@ -246,6 +552,12 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = BitAuto;
 				TargetAttributes = {
+					94B6FD371B16C5B700D792DC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					94B6FD491B16C5B700D792DC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 					94D7E18F1AE8C8BB00153228 = {
 						CreatedOnToolsVersion = 6.3;
 					};
@@ -270,11 +582,31 @@
 			targets = (
 				94D7E18F1AE8C8BB00153228 /* NavDemo */,
 				94D7E1A81AE8C8BB00153228 /* NavDemoTests */,
+				94B6FD371B16C5B700D792DC /* NavDemo WatchKit Extension */,
+				94B6FD491B16C5B700D792DC /* NavDemo WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		94B6FD361B16C5B700D792DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B6FD471B16C5B700D792DC /* Images.xcassets in Resources */,
+				94B6FD4B1B16C5B700D792DC /* NavDemo WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B6FD481B16C5B700D792DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B6FD531B16C5B700D792DC /* Interface.storyboard in Resources */,
+				94B6FD551B16C5B700D792DC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94D7E18E1AE8C8BB00153228 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,9 +615,11 @@
 				2678E9F41B149EDC0089F41A /* MasViewController.xib in Resources */,
 				94D7E1BB1AE8D0D600153228 /* per_center_bg@2x.png in Resources */,
 				94D7E19F1AE8C8BB00153228 /* Main.storyboard in Resources */,
+				9459D98E1AEC8A6C00801608 /* LoginViewController.xib in Resources */,
 				94D7E1BC1AE8D0D600153228 /* per_center_bg@3x.png in Resources */,
 				94D7E1A41AE8C8BB00153228 /* LaunchScreen.xib in Resources */,
 				26DFC5361B4C112E0040AAAE /* TestView.xib in Resources */,
+				9499221E1B0D780200A6A60A /* AutoViewController.xib in Resources */,
 				94D7E1A11AE8C8BB00153228 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +667,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		94B6FD341B16C5B700D792DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B6FD421B16C5B700D792DC /* NotificationController.m in Sources */,
+				94B6FD3F1B16C5B700D792DC /* InterfaceController.m in Sources */,
+				94B6FD451B16C5B700D792DC /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94D7E18C1AE8C8BB00153228 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,10 +686,36 @@
 				262CBC3C1B56A72100B97CC1 /* SonLayer.m in Sources */,
 				94D7E19C1AE8C8BB00153228 /* ViewController.m in Sources */,
 				26B06C401B5E814D00A71C2F /* GradientViewController.m in Sources */,
+				94BEEB231B1C4CED0069836E /* SlideControl.m in Sources */,
+				9405C22E1B7AD958005CFBD4 /* YCVoteBar.m in Sources */,
+				94873E4E1B4FAAC400B7E5FE /* CircleView.m in Sources */,
+				949922401B1326CB00A6A60A /* YCChartLabel.m in Sources */,
+				946D612B1AFE537A00A7FF08 /* AnimationButton.m in Sources */,
+				9499221D1B0D780200A6A60A /* AutoViewController.m in Sources */,
+				9499223F1B1326CB00A6A60A /* YCChart.m in Sources */,
+				94873E541B4FB45400B7E5FE /* ImageViewController.m in Sources */,
+				949922241B0F217800A6A60A /* WaterFlowLayout.m in Sources */,
+				949922411B1326CB00A6A60A /* YCColor.m in Sources */,
+				94873E511B4FAEEE00B7E5FE /* CircleViewController.m in Sources */,
+				2678E9F31B149EDC0089F41A /* MasViewController.m in Sources */,
+				949B25B81B462BED00E29919 /* SearchViewController.m in Sources */,
+				94D7E19C1AE8C8BB00153228 /* ViewController.m in Sources */,
+				9459D9851AEB357100801608 /* NetworkManager.m in Sources */,
 				94D7E1991AE8C8BB00153228 /* AppDelegate.m in Sources */,
+				949922421B1326CB00A6A60A /* YCLineChart.m in Sources */,
+				9499222E1B131F6500A6A60A /* ChartViewController.m in Sources */,
+				9499223D1B1326CB00A6A60A /* YCBar.m in Sources */,
+				9499223E1B1326CB00A6A60A /* YCBarChart.m in Sources */,
 				94D7E1C31AE9D31600153228 /* MessageLayer.m in Sources */,
 				2668767B1B57EF40005B4B67 /* RRActionSheet.m in Sources */,
+				9459D9891AEBBB1B00801608 /* LoginViewController.m in Sources */,
+				94B6738C1B7AF00C0039BC93 /* YCVoteView.m in Sources */,
+				947223771B564B1A009DDBD2 /* RRActionSheet.m in Sources */,
+				94DE4E371B4B7E7C007AA72E /* CustomeTableViewCell.m in Sources */,
+				949922211B0F203A00A6A60A /* WaterFallViewController.m in Sources */,
 				94D7E1961AE8C8BB00153228 /* main.m in Sources */,
+				94873E4A1B4F9FCF00B7E5FE /* DecayViewController.m in Sources */,
+				949922271B0F22A900A6A60A /* WaterCollectionViewCell.m in Sources */,
 				94D7E1BF1AE8E0A000153228 /* UINavigationBar+Awesome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +731,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		94B6FD4D1B16C5B700D792DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B6FD491B16C5B700D792DC /* NavDemo WatchKit App */;
+			targetProxy = 94B6FD4C1B16C5B700D792DC /* PBXContainerItemProxy */;
+		};
+		94B6FD571B16C5B700D792DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B6FD371B16C5B700D792DC /* NavDemo WatchKit Extension */;
+			targetProxy = 94B6FD561B16C5B700D792DC /* PBXContainerItemProxy */;
+		};
 		94D7E1AB1AE8C8BB00153228 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 94D7E18F1AE8C8BB00153228 /* NavDemo */;
@@ -369,6 +749,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		94B6FD511B16C5B700D792DC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B6FD521B16C5B700D792DC /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		94D7E19D1AE8C8BB00153228 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -388,6 +776,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		94B6FD591B16C5B700D792DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NavDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		94B6FD5A1B16C5B700D792DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NavDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		94B6FD5B1B16C5B700D792DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = NavDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "NavDemo WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		94B6FD5C1B16C5B700D792DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = NavDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "NavDemo WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		94D7E1B11AE8C8BB00153228 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -475,9 +919,12 @@
 			baseConfigurationReference = C92D724350C41F98A88F2907 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = NavDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 			};
 			name = Debug;
 		};
@@ -486,9 +933,12 @@
 			baseConfigurationReference = 18C523A0D2D4005E6C17BC67 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = NavDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 			};
 			name = Release;
 		};
@@ -529,6 +979,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		94B6FD5D1B16C5B700D792DC /* Build configuration list for PBXNativeTarget "NavDemo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B6FD5B1B16C5B700D792DC /* Debug */,
+				94B6FD5C1B16C5B700D792DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B6FD5E1B16C5B700D792DC /* Build configuration list for PBXNativeTarget "NavDemo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B6FD591B16C5B700D792DC /* Debug */,
+				94B6FD5A1B16C5B700D792DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		94D7E18B1AE8C8BB00153228 /* Build configuration list for PBXProject "NavDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

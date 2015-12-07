@@ -1,0 +1,1 @@
+PODS_RRTOOLKIT_OTHER_LDFLAGS = -framework "CoreGraphics"

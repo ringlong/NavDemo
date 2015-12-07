@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262CBC3C1B56A72100B97CC1 /* SonLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 262CBC3B1B56A72100B97CC1 /* SonLayer.m */; };
+		2668767B1B57EF40005B4B67 /* RRActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2668767A1B57EF40005B4B67 /* RRActionSheet.m */; };
 		2678E9F31B149EDC0089F41A /* MasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2678E9F11B149EDC0089F41A /* MasViewController.m */; };
 		2678E9F41B149EDC0089F41A /* MasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2678E9F21B149EDC0089F41A /* MasViewController.xib */; };
+		26B06C401B5E814D00A71C2F /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B06C3E1B5E814D00A71C2F /* GradientViewController.m */; };
+		26B06C411B5E814D00A71C2F /* GradientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B06C3F1B5E814D00A71C2F /* GradientViewController.xib */; };
+		26DFC5341B4C10FC0040AAAE /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DFC5331B4C10FC0040AAAE /* TestView.m */; };
+		26DFC5361B4C112E0040AAAE /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26DFC5351B4C112E0040AAAE /* TestView.xib */; };
 		866067020E9A3B4FD9F6B6CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 171D5551CF206A5F94C7A3C7 /* libPods.a */; };
 		94D7E1961AE8C8BB00153228 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7E1951AE8C8BB00153228 /* main.m */; };
 		94D7E1991AE8C8BB00153228 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7E1981AE8C8BB00153228 /* AppDelegate.m */; };
@@ -36,9 +42,20 @@
 /* Begin PBXFileReference section */
 		171D5551CF206A5F94C7A3C7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C523A0D2D4005E6C17BC67 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		262CBC3A1B56A72100B97CC1 /* SonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonLayer.h; sourceTree = "<group>"; };
+		262CBC3B1B56A72100B97CC1 /* SonLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonLayer.m; sourceTree = "<group>"; };
+		266876791B57EF40005B4B67 /* RRActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRActionSheet.h; sourceTree = "<group>"; };
+		2668767A1B57EF40005B4B67 /* RRActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRActionSheet.m; sourceTree = "<group>"; };
 		2678E9F01B149EDC0089F41A /* MasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasViewController.h; sourceTree = "<group>"; };
 		2678E9F11B149EDC0089F41A /* MasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasViewController.m; sourceTree = "<group>"; };
 		2678E9F21B149EDC0089F41A /* MasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasViewController.xib; sourceTree = "<group>"; };
+		26B06C3D1B5E814D00A71C2F /* GradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		26B06C3E1B5E814D00A71C2F /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+		26B06C3F1B5E814D00A71C2F /* GradientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GradientViewController.xib; sourceTree = "<group>"; };
+		26DFC5321B4C10FC0040AAAE /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		26DFC5331B4C10FC0040AAAE /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		26DFC5351B4C112E0040AAAE /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		26E210071B55475900CAEB4E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		94D7E1901AE8C8BB00153228 /* NavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D7E1941AE8C8BB00153228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D7E1951AE8C8BB00153228 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -110,14 +127,25 @@
 				94D7E1981AE8C8BB00153228 /* AppDelegate.m */,
 				94D7E19A1AE8C8BB00153228 /* ViewController.h */,
 				94D7E19B1AE8C8BB00153228 /* ViewController.m */,
+				262CBC3A1B56A72100B97CC1 /* SonLayer.h */,
+				262CBC3B1B56A72100B97CC1 /* SonLayer.m */,
 				94D7E1C11AE9D31600153228 /* MessageLayer.h */,
 				94D7E1C21AE9D31600153228 /* MessageLayer.m */,
+				266876791B57EF40005B4B67 /* RRActionSheet.h */,
+				2668767A1B57EF40005B4B67 /* RRActionSheet.m */,
+				26B06C3D1B5E814D00A71C2F /* GradientViewController.h */,
+				26B06C3E1B5E814D00A71C2F /* GradientViewController.m */,
+				26B06C3F1B5E814D00A71C2F /* GradientViewController.xib */,
 				2678E9F01B149EDC0089F41A /* MasViewController.h */,
 				2678E9F11B149EDC0089F41A /* MasViewController.m */,
 				2678E9F21B149EDC0089F41A /* MasViewController.xib */,
+				26DFC5321B4C10FC0040AAAE /* TestView.h */,
+				26DFC5331B4C10FC0040AAAE /* TestView.m */,
+				26DFC5351B4C112E0040AAAE /* TestView.xib */,
 				94D7E19D1AE8C8BB00153228 /* Main.storyboard */,
 				94D7E1A01AE8C8BB00153228 /* Images.xcassets */,
 				94D7E1A21AE8C8BB00153228 /* LaunchScreen.xib */,
+				26E210071B55475900CAEB4E /* MyPlayground.playground */,
 				94D7E1931AE8C8BB00153228 /* Supporting Files */,
 			);
 			path = NavDemo;
@@ -251,11 +279,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B06C411B5E814D00A71C2F /* GradientViewController.xib in Resources */,
 				2678E9F41B149EDC0089F41A /* MasViewController.xib in Resources */,
 				94D7E1BB1AE8D0D600153228 /* per_center_bg@2x.png in Resources */,
 				94D7E19F1AE8C8BB00153228 /* Main.storyboard in Resources */,
 				94D7E1BC1AE8D0D600153228 /* per_center_bg@3x.png in Resources */,
 				94D7E1A41AE8C8BB00153228 /* LaunchScreen.xib in Resources */,
+				26DFC5361B4C112E0040AAAE /* TestView.xib in Resources */,
 				94D7E1A11AE8C8BB00153228 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,10 +337,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26DFC5341B4C10FC0040AAAE /* TestView.m in Sources */,
 				2678E9F31B149EDC0089F41A /* MasViewController.m in Sources */,
+				262CBC3C1B56A72100B97CC1 /* SonLayer.m in Sources */,
 				94D7E19C1AE8C8BB00153228 /* ViewController.m in Sources */,
+				26B06C401B5E814D00A71C2F /* GradientViewController.m in Sources */,
 				94D7E1991AE8C8BB00153228 /* AppDelegate.m in Sources */,
 				94D7E1C31AE9D31600153228 /* MessageLayer.m in Sources */,
+				2668767B1B57EF40005B4B67 /* RRActionSheet.m in Sources */,
 				94D7E1961AE8C8BB00153228 /* main.m in Sources */,
 				94D7E1BF1AE8E0A000153228 /* UINavigationBar+Awesome.m in Sources */,
 			);

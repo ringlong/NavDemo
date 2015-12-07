@@ -22,6 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.containerView.backgroundColor = self.bkColor;
+    
     UILabel *label1 = [[UILabel alloc] init];
     label1.tag = 100;
     label1.backgroundColor = [UIColor yellowColor];

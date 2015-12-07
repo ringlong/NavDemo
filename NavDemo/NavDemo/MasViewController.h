@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+IB_DESIGNABLE
 @interface MasViewController : UIViewController
+
+@property (nonatomic, strong) IBInspectable UIColor *bkColor;
 
 @end

@@ -11,8 +11,11 @@
 #import "EYToolkit.h"
 #import "MessageLayer.h"
 #import "MasViewController.h"
+#import "SonLayer.h"
+#import "RRActionSheet.h"
+#import "GradientViewController.h"
 
-@interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
+@interface ViewController ()<UITableViewDataSource, UITableViewDelegate, RRActionSheetDelegate>
 
 @property (nonatomic, strong) NSMutableArray *dataSource;
 
@@ -32,6 +35,7 @@
     self.tableView.tableHeaderView = topImage;
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -60,9 +64,18 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [[MessageLayer sharedMessageLayer] showMessage:@"test" lastTime:2];
+
+    RRActionSheet * actionSheet = [[RRActionSheet alloc] initWithTitle:@"what" delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:@"稍后" otherButtonTitles:@"1", @"2", @"3", nil];
+    [actionSheet showInView:self.view];
+}
+
+#pragma mark - RRActionSheetDelegate
+
+- (void)actionSheet:(RRActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    NSLog(@"%@", @(buttonIndex));
     
-    MasViewController *masView = [[MasViewController alloc] init];
-    [self.navigationController pushViewController:masView animated:YES];
+    GradientViewController *gradient = [GradientViewController new];
+    [self.navigationController pushViewController:gradient animated:YES];
 }
 
 @end

@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "6T9HA9B248.bitauto.BluetoothDemo",
+                "paths": ["*","/"]
+            }
+        ]
+    }
+}
